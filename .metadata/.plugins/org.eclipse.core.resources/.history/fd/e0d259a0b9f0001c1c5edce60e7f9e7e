@@ -1,0 +1,5 @@
+package com.projetspring.meriem.entities;
+
+public class Order {
+
+}

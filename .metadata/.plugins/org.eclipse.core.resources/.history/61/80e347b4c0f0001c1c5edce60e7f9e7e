@@ -1,0 +1,5 @@
+package com.projetspring.meriem.dao;
+
+public interface CategoryRepository {
+
+}

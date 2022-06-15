@@ -1,0 +1,23 @@
+package com.projetspring.meriem.entities;
+
+import java.io.Serializable;
+import java.util.Collection;
+
+import javax.persistence.Entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+
+@Entity
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Category implements Serializable {
+ private Long id;
+ private String name;
+ private String description;
+ private String imgURL;
+ private Collection<Product> products;
+}

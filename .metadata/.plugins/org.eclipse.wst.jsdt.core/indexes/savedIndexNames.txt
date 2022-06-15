@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\kazah\OneDrive\Bureau\CI2 S2 TP\spring\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3000501487.index
+3468688705.index
+33250877.index
+2478653076.index
+1999102607.index
+2563662263.index
