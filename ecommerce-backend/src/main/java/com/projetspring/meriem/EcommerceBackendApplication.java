@@ -32,9 +32,11 @@ public class EcommerceBackendApplication implements CommandLineRunner{
 
 	        repositoryRestConfiguration.exposeIdsFor(com.projetspring.meriem.entities.Product.class,Category.class);
 
-	        categoryRepository.save(new Category(null,"Computers",null,null,null));
-	        categoryRepository.save(new Category(null,"Printers",null,null,null));
-	        categoryRepository.save(new Category(null,"Smart phones",null,null,null));
+	        categoryRepository.save(new Category(null,"Shirts",null,null,null));
+	        categoryRepository.save(new Category(null,"Jeans",null,null,null));
+	        categoryRepository.save(new Category(null,"Sleepwear",null,null,null));
+	        categoryRepository.save(new Category(null,"Jackets",null,null,null));
+
 	        Random rnd=new Random();
 	        categoryRepository.findAll().forEach(c->{
 	            for (int i = 0; i <10 ; i++) {
