@@ -1,0 +1,5 @@
+package com.projetspring.meriem.controller;
+
+public class ImagesController {
+
+}

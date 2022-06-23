@@ -22,7 +22,7 @@ public class Product implements Serializable {
     private String name;
     private String description;
     private double price;
-    private boolean promotion;
+    private boolean promotion; //on sale
     private boolean selected;
     private boolean available;
     private String imgURL;

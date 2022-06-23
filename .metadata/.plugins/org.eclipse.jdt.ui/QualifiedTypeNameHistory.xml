@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.util.Collection"/>
-    <fullyQualifiedTypeName name="com.projetspring.meriem.entities.Product"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
-    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
     <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
     <fullyQualifiedTypeName name="com.projetspring.meriem.entities.Category"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
+    <fullyQualifiedTypeName name="com.projetspring.meriem.dao.CategoryRepository"/>
+    <fullyQualifiedTypeName name="ch.qos.logback.core.net.server.Client"/>
+    <fullyQualifiedTypeName name="com.projetspring.meriem.entities.Payment"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="java.awt.PageAttributes.MediaType"/>
+    <fullyQualifiedTypeName name="org.springframework.http.MediaType"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+    <fullyQualifiedTypeName name="java.nio.file.Files"/>
+    <fullyQualifiedTypeName name="java.nio.file.Paths"/>
+    <fullyQualifiedTypeName name="org.springframework.web.multipart.MultipartFile"/>
+    <fullyQualifiedTypeName name="ch.qos.logback.core.Context"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.CrossOrigin"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.projetspring.meriem.dao.ProductRepository"/>
+    <fullyQualifiedTypeName name="com.projetspring.meriem.dao.ClientRepository"/>
+    <fullyQualifiedTypeName name="com.projetspring.meriem.dao.OrderRepository"/>
+    <fullyQualifiedTypeName name="com.projetspring.meriem.dao.OrderItemRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+    <fullyQualifiedTypeName name="com.projetspring.meriem.entities.Order"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="com.projetspring.meriem.entities.OrderForm"/>
+    <fullyQualifiedTypeName name="com.projetspring.meriem.entities.Client"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+    <fullyQualifiedTypeName name="com.projetspring.meriem.entities.OrderItem"/>
+    <fullyQualifiedTypeName name="com.projetspring.meriem.entities.Product"/>
 </qualifiedTypeNameHistroy>

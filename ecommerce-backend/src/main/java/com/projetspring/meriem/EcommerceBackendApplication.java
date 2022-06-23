@@ -47,7 +47,7 @@ public class EcommerceBackendApplication implements CommandLineRunner{
 	                p.setPromotion(rnd.nextBoolean());
 	                p.setSelected(rnd.nextBoolean());
 	                p.setCategory(c);
-	                p.setImgURL("default.png");
+	                p.setImgURL("default.jpg");
 	                productRepository.save(p);
 	            }
 	        });
