@@ -2,8 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
-    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
-    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
     <fullyQualifiedTypeName name="javax.persistence.Entity"/>
     <fullyQualifiedTypeName name="com.projetspring.meriem.entities.Category"/>
     <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
@@ -27,11 +25,15 @@
     <fullyQualifiedTypeName name="com.projetspring.meriem.dao.OrderItemRepository"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
     <fullyQualifiedTypeName name="com.projetspring.meriem.entities.Order"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="com.projetspring.meriem.entities.OrderForm"/>
     <fullyQualifiedTypeName name="com.projetspring.meriem.entities.Client"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
     <fullyQualifiedTypeName name="com.projetspring.meriem.entities.OrderItem"/>
     <fullyQualifiedTypeName name="com.projetspring.meriem.entities.Product"/>
+    <fullyQualifiedTypeName name="com.projetspring.meriem.entities.OrderProduct"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="com.projetspring.meriem.entities.User"/>
 </qualifiedTypeNameHistroy>

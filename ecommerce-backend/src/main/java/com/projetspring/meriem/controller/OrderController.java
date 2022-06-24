@@ -16,6 +16,7 @@ import com.projetspring.meriem.entities.Client;
 import com.projetspring.meriem.entities.Order;
 import com.projetspring.meriem.entities.OrderForm;
 import com.projetspring.meriem.entities.OrderItem;
+import com.projetspring.meriem.entities.OrderProduct;
 import com.projetspring.meriem.entities.Product;
 
 @CrossOrigin("*")
@@ -45,16 +46,16 @@ public class OrderController {
         order.setDate(new Date());
         order=orderRepository.save(order);
         double total=0;
-//        for(OrderProduct p:orderForm.getProducts()){
-//            OrderItem orderItem=new OrderItem();
-//            orderItem.setOrder(order);
-//            Product product=productRepository.findById(p.getId()).get();
-//            orderItem.setProduct(product);
-//            orderItem.setPrice(product.getPrice());
-//            orderItem.setQuantity(p.getQuantity());
-//            orderItemRepository.save(orderItem);
-//            total+=p.getQuantity()*product.getPrice();
-//        }
+        for(OrderProduct p:orderForm.getProducts()){
+           OrderItem orderItem=new OrderItem();
+           orderItem.setOrder(order);
+           Product product=productRepository.findById(p.getId()).get();
+           orderItem.setProduct(product);
+            orderItem.setPrice(product.getPrice());
+            orderItem.setQuantity(p.getQuantity());
+            orderItemRepository.save(orderItem);
+           total+=p.getQuantity()*product.getPrice();
+        }
         order.setTotalAmount(total);
         return orderRepository.save(order);
     }

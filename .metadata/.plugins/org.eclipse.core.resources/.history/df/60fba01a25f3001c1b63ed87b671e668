@@ -1,0 +1,10 @@
+package com.projetspring.meriem.entities;
+
+import lombok.Data;
+
+@Data
+class OrderProduct{
+    private Long id;
+    private int quantity;
+
+}

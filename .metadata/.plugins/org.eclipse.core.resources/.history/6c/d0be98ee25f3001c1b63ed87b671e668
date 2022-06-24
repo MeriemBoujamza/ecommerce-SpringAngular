@@ -1,0 +1,8 @@
+spring.servlet.multipart.max-file-size=500KB
+spring.servlet.multipart.max-request-size=500KB
+spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce_spring?serverTimezone=UTC
+spring.datasource.username=root
+spring.datasource.password=java1994
+#spring.jpa.show-sql = true
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect
